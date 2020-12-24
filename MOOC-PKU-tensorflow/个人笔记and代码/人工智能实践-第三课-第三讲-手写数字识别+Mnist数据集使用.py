@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 # In[6]:
 
 
-(x_train,y_train),(x_test,y_test)=mnist.load_data(r'E:\AD_CSorJiangLab\MOOC-CS课程ppt+笔记\北大人工智能实践：tensorflow2\Code\mnist.npz')#加载本地数据集
+(x_train,y_train),(x_test,y_test)=mnist.load_data(r'本地路径\mnist.npz')#加载本地数据集
 
 
 # 看看数据集里面的图
