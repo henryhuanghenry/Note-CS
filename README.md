@@ -13,7 +13,7 @@ Created by Henry Huang
 - fashion_mnist 数据集
 - to be continued..
 ### 1.2 mnist数据集本地加载方法
-mnist.npz 把仓库中的数据集下载到本地后,的载入方法如下：
+mnist.npz 把仓库中MOOC文件夹里面的mnist.npz数据集下载到本地后,的载入方法如下：
 ```python
 import tensorflow as tf
 mnist=tf.keras.datasets.mnist
@@ -24,7 +24,7 @@ mnist=tf.keras.datasets.mnist
 
 ### 1.3 fashion_mnist 数据集数据集本地加载方法
 mnist.npz 把仓库中的数据集下载到本地后,的载入方法如下：
-1. 下载文件到本地,下载地址
+1. 从仓库中MOOC的文件夹里面找到fashion的文件夹下载文件到本地,有能力而不信任我提供的文件的同学可以去官方下载地址：
   - https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-images-idx3-ubyte.gz
   - https://storage.googleapis.com/tensorflow/tf-keras-datasets/train-labels-idx1-ubyte.gz
   - https://storage.googleapis.com/tensorflow/tf-keras-datasets/t10k-images-idx3-ubyte.gz
