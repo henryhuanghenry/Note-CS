@@ -75,3 +75,8 @@ def load_data_fromlocalpath(input_path):
 ``` python
 (x_train,y_train),(x_test,y_test)=fashion.load_data(r'本地地址')#加载本地数据集
 ```
+---
+
+## 2.文件夹Note-TFonlineTutorials
+
+该文件夹保存了一个online的tensorflow的tutorials的学习笔记
